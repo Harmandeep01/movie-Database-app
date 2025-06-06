@@ -14,30 +14,30 @@ A simple backend application for managing movies, built as part of the Backend d
 - Express.js
 - MongoDB & Mongoose
 
-## 🖼️ Screenshots
+## 🖼️ 
 
-Below are some screenshots of the application:
+Below are some  of the application:
 
 ### 🏠 Home Page
-![Home](screenshots/1.png)
+![Home](/Screenshots/1.png)
 
 ### 🔎 Search Page
-![Search](screenshots/search.png)
+![Search](/Screenshots/search.png)
 
 ### 🎥 Movie Details
-![Movie Details](screenshots/review.png)
+![Movie Details](/Screenshots/review.png)
 
 ### 📝 Write Review
-![Write Review](screenshots/writeReview.png)
+![Write Review](/Screenshots/writeReview.png)
 
 ### ✅ Posted Review
-![Posted Review](screenshots/postedReview.png)
+![Posted Review](/Screenshots/postedReview.png)
 
 ### ✏️ Update Review
-![Update Review](screenshots/update.png)
+![Update Review](/Screenshots/update.png)
 
 ### ⚖️ Legal / Footer
-![Footer](screenshots/legal.png)
+![Footer](/Screenshots/legal.png)
 
 ## 🏁 Getting Started
 
