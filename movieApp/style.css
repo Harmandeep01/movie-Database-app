@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: white;
+    padding: 0 2%;
+}
+
+h3{
+    color: white;
+}
+
+.topNav{
+    background-color: #000;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.topNav img{
+    width: 80px;
+    float: left;
+    display: block;
+}
+
+.topNav .search-container{
+    float: right;
+    border: none;
+}
+
+form{
+    background-color: #ffffff;
+    border: none;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    all: unset;
+    font: 15px;
+    color: #000;
+    height: auto;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+    width: 25%;
+    margin: 0 0px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  max-height: 100%;
+  min-height: 50%;
+}
+
+.card > h3{
+    color: #000;
+}
+
+.thumbnail {
+border-radius: 11px;
+  width: 100%;
+  min-height: 200px;
+  max-height: 450px;
+}
+
+.card a{
+    cursor: pointer;
+    color: rgb(245, 197, 24);
+    text-decoration:underline;
+}
