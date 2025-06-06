@@ -49,7 +49,7 @@ Below are some  of the application:
 ### ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/myMovieAppV1.git
+git clone https://github.com/Harmandeep01/movie-Database-app
 cd myMovieAppV1
 npm install
 ```
@@ -80,3 +80,8 @@ npm start
 
 ## 📄 License
 This project is licensed under the [MIT](LISENCE.txt) License.
+
+## 📱 Connect with Me
+
+- [![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harmandeep01)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harmandeep01/)
