@@ -1,14 +1,16 @@
 const API_LINK = "http://localhost:8000/api/v1/reviews/";
 
 const url = new URL(location.href);
-
 const  movieId = url.searchParams.get("id");
 const movieTitle = url.searchParams.get("title")
+const movieOverview = url.searchParams.get("overview")
 
 const main = document.getElementById("section");
 const title = document.getElementById("title");
+const overview = document.getElementById("overview");
 
 title.innerHTML = movieTitle
+overview.innerHTML = movieOverview;
 
 const cretaeReviewDiv = document.createElement('div');
 cretaeReviewDiv.innerHTML = ` <div class="row">
@@ -27,9 +29,9 @@ cretaeReviewDiv.innerHTML = ` <div class="row">
 main.appendChild(cretaeReviewDiv)
 returnReviews(API_LINK);
 
- function returnReviews(url) {
+ async function returnReviews(url) {
     console.log((url + "movie/" + movieId))
-   fetch(url + "movie/" + movieId)
+   await fetch(url + "movie/" + movieId)
 //   console.log(url + "movie/" + movieId)
     .then((res) => res.json())
     .then(function(data){

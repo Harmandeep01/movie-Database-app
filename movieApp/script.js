@@ -34,7 +34,7 @@ async function  returnMovies(url){
             title.setAttribute('id', 'title');
 
         
-            title.innerHTML = `${element.title}<br><a href="movie.html?id=${element.id}&title=${element.title}">Reviews</a>`;
+            title.innerHTML = `${element.title}<br><a href="movie.html?id=${element.id}&title=${element.title}&overview=${element.overview}">Reviews</a>`;
             img.src = IMG_PATH + `${element.poster_path}`;
 
             center.appendChild(img);
